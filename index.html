@@ -34,12 +34,12 @@
         .fallback-message {
             color: #888;
             font-size: 18px;
-            margin-top: 20px;
+            margin-top: 30px;
         }
         .footer {
             margin-top: auto;
             padding: 20px 0;
-            font-size: 18px;
+            font-size: 14px;
             color: #999;
         }
     </style>
@@ -50,8 +50,10 @@
     <hr>
     <video id="video" controls></video>
     <div id="fallback-message" class="fallback-message" style="display: none;">直播未开始</div>
-    <hr>
-    <div class="footer">Mcpezht Studio</div>
+    <div>
+        <hr>
+        <div class="footer">Mcpezht Studio</div>
+    </div>
 
     <script>
         const hlsUrl = 'http://[待添加]:8080/hls/stream.m3u8';
